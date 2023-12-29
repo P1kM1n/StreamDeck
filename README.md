@@ -19,7 +19,7 @@ This project consists of two main components:
    Clone the repository onto both the computer you want the applications to be opened on and the device that will be running the GUI
    ``git clone https://github.com/your-username/StreamDeck.git``
 
-3. Navigate to the project directory
+2. Navigate to the project directory
  
 3.Update the server IP address:
   Open client.py using a text editor of your choice (e.g., Notepad, VSCode).
@@ -32,6 +32,9 @@ This project consists of two main components:
   Replace the existing actions with your desired applications. For example, if you want to launch Photoshop, replace ``'open_1': subprocess.run(["C:\\Program Files\\Adobe\\Adobe Photoshop\\Photoshop.exe"]).``
   Save the file.
 
+5. Customize the icons:
+On your client device replace the icons in the Icons folder with your preferred icons. Unsurprisingly you will need to change the file references in the code of client.py.
+
 6. Running the program:
    Open client.py on your client device (probably a pi or something similar) and open server.py on your main computer.
 
@@ -39,5 +42,5 @@ This project was made assuming you have some sort of screen next to your main se
 
 If this project gains any sort of traction I'll modify the code to be much more user friendly.
 
-If you want me to attach a photo of how I had this setup, just ask and I'll put it in the readme.
+If you want me to attach a photo of how I had this setup or just improve this readme in general, just ask (I'm aware how shit this readme is lmao)
 Good luck and happy coding :)
