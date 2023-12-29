@@ -1,6 +1,6 @@
 # Stream Deck
 
-Stream Deck is a customizable button interface for your computer, controlled by a Raspberry Pi.
+Stream Deck is a customizable button interface for your computer, controlled by a Raspberry Pi (or whatever you want).
 
 ## Overview
 
