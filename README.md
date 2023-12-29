@@ -28,7 +28,7 @@ This project consists of two main components:
 4. Add/Modify Actions (Customize to Launch Your Applications):
   On the server device (the one you want the applications to open on) open server.py using a text editor of your choice (e.g., Notepad, VSCode).
   Locate the section with the actions for opening programs(open_1, open_2, etc.).
-  Replace the existing actions with your desired applications. For example, if you want to launch Photoshop, replace 'open_1': subprocess.run(["C:\\Program Files\\Adobe\\Adobe Photoshop\\Photoshop.exe"]).
+  Replace the existing actions with your desired applications. For example, if you want to launch Photoshop, replace ``'open_1': subprocess.run(["C:\\Program Files\\Adobe\\Adobe Photoshop\\Photoshop.exe"]).``
   Save the file.
 
 5. Running the program:
