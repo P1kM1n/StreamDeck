@@ -27,11 +27,12 @@ This project consists of two main components:
   
 4. Add/Modify Actions (Customize to Launch Your Applications):
   On the server device (the one you want the applications to open on) open server.py using a text editor of your choice (e.g., Notepad, VSCode).
-  Locate the section with the actions for opening programs(open_1, open_2, etc.).
+  Locate the section with the actions for opening programs(``open_1``, ``open_2``, etc.).
+
   Replace the existing actions with your desired applications. For example, if you want to launch Photoshop, replace ``'open_1': subprocess.run(["C:\\Program Files\\Adobe\\Adobe Photoshop\\Photoshop.exe"]).``
   Save the file.
 
-5. Running the program:
+6. Running the program:
    Open client.py on your client device (probably a pi or something similar) and open server.py on your main computer.
 
 This project was made assuming you have some sort of screen next to your main setup, whether that be running off a pi or an actual pc. But tbh since this runs on pretty much anything(even a potato if it could interpret python) you can run it however you want. This also acts as a good scaffhold for a bunch of other projects I might explore in the future.
