@@ -27,7 +27,7 @@ This project consists of two main components:
 
 NOTE from this point on, if you open the programs on the right devices and have the same programs as me the code will work. Anything past here is just for customising the programs that open.
   
-5. Add/Modify Actions (Customize to Launch Your Applications):
+4. Add/Modify Actions (Customize to Launch Your Applications):
   On the server device (the one you want the applications to open on) open server.py using a text editor of your choice (e.g., Notepad, VSCode).
   Locate the section with the actions for opening programs(``open_1``, ``open_2``, etc.).
 
