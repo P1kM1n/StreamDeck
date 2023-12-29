@@ -21,7 +21,7 @@ This project consists of two main components:
 
 2. Navigate to the project directory
  
-3.Update the server IP address:
+3. Update the server IP address:
   Open client.py using a text editor of your choice (e.g., Notepad, VSCode).
   On the client device open client.py and replace '192.168.1.21' with the IP address of your computer.
   
