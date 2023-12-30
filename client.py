@@ -21,7 +21,7 @@ class StreamDeckApp:
             # Set the image as a reference to prevent it from being garbage-collected
             setattr(self, f"image_{i}", image)
             button = tk.Button(root, image=image, command=lambda idx=i: self.send_signal(idx))
-            button.config(width=70, height=70, bd=0, highlightthickness=0)  # Set button size and remove borders
+            button.config(width=200, height=200, bd=0, highlightthickness=0)  # Set button size and remove borders
             button.grid(row=i // 3, column=i % 3, pady=5, padx=5)
 
             # Add colored spaces between the buttons
